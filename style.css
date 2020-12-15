@@ -163,7 +163,7 @@ box-shadow: 0px 7px 14px -8px rgba(0, 0, 0, 0.2);
 
 
 footer .footer_logo {
-  max-width: 1340px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -172,7 +172,7 @@ footer{
 }
 
 .footer_contact{
-  max-width: 1340px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -265,7 +265,7 @@ margin-bottom: 50px;
 
 /* Mobile Design */
 
-@media (max-width: 768px), @media (max-width:900px){
+@media (max-width: 1100px){
   .hero{
     background-image: url('/images/bg-hero-mobile.svg');
     background-size: contain;
@@ -286,33 +286,35 @@ margin-bottom: 50px;
   h1{
    text-align: center;
    margin: 0 auto;
-   max-width: 450px;
-   font-size: 6vw;
+   max-width: 400px;
+   font-size: 1.7rem;
    margin-bottom: 10px;
   }
   .desc{
     text-align: center;
-   margin-bottom: 30px;
-   max-width: 450px;
-   font-size: 1.5rem;
+    margin: 0 auto;
+    max-width: 400px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
   }
   .hero_btn{
     margin: 0 auto;
-    max-width: 500px;   
+    max-width: 450px;   
     width: 100%;
     margin-bottom: 50px; 
-    font-size: 15px;
+    font-size: 14px;
   }
-  .lol{
-    margin-left: 75px;
-    text-align:center;
+  .first_hero_btn{
+    margin-left: 55px;
+    text-align: center;
   }
   .boxes{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .features_card_img, {
-    max-width: 300px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto;
   }
@@ -327,6 +329,8 @@ margin-bottom: 50px;
   .flow{
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
+    
   }
   .flowing_img_card{
     padding-left: 0px;
@@ -365,3 +369,4 @@ li{
   justify-content: center;
 }
 }
+
